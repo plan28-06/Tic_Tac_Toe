@@ -1,0 +1,33 @@
+body{
+    background-color: #111827;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: 90px auto;
+    grid-template: auto auto auto/auto auto auto;
+}
+
+.row-0,.row-1{
+    border-bottom: 4px solid white ;
+    border-right: 4px solid white ;
+}
+
+.row-2{
+    border-right: 4px solid white;
+}
+
+.col-2{
+    border-right: 0px;
+}
+
+button{
+    padding: 15px;
+    color: white;
+    background-color: #0f766e;
+    font-size: 24px;
+    border-radius: 15px;
+}
