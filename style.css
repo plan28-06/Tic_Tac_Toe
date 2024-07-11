@@ -8,7 +8,7 @@ body{
     width: 500px;
     height: 500px;
     margin: 90px auto;
-    grid-template: auto auto auto/auto auto auto;
+    grid-template: 164px 164px 164px/168px 168px 168px;
 }
 
 .row-0,.row-1{
@@ -30,4 +30,20 @@ button{
     background-color: #0f766e;
     font-size: 24px;
     border-radius: 15px;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: rgb(214, 214, 15);
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.text{
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
 }
