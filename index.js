@@ -50,7 +50,7 @@ function checkgameover(){
         }
         else if (gameboard[winconditions[i][0]] =='O' && gameboard[winconditions[i][1]] =='O' && gameboard[winconditions[i][2]]== 'O'){
             flag=1;
-            text.textContent="Game Over! Y wins.";
+            text.textContent="Game Over! O wins.";
             break;
         }
         if (flag==0){
